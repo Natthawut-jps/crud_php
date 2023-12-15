@@ -8,7 +8,7 @@ $address2 = $_POST["address2"];
 $city = $_POST["city"];
 $state = $_POST["state"];
 $zip = $_POST["zip"];
-$check_me = $_POST["check_me"];
+$check_me = $_POST["check_me"] | 0;
 
 if (isset($_POST['save'])) {
 
